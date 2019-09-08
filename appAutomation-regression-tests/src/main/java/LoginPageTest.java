@@ -10,7 +10,7 @@ public class LoginPageTest extends BasePageTest{
     @Test
     public void SignInWithValidUserCredential() {
         loginPage = new LoginPage(getDriver());
-        loginPage.submitUserNameAndPassWord(getDriver(),"jemalmfth@gmail.com","Link@2019")
+        loginPage.submitUserNameAndPassWord(getDriver()," "," ")
                 .clickSignInButton();
 
 

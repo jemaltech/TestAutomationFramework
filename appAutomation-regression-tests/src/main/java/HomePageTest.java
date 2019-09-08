@@ -14,7 +14,7 @@ public class HomePageTest extends BasePageTest {
     @Test
     public void searchFriendsNameUsingFacebookSearch() throws InterruptedException {
         loginPage = new LoginPage(getDriver());
-        loginPage.submitUserNameAndPassWord(getDriver(),"jemalmfth@gmail.com","Link@2019")
+        loginPage.submitUserNameAndPassWord(getDriver()," "," ")
                 .clickSignInButton();
 
         homePage = new HomePage(getDriver());
