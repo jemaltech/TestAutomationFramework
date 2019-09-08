@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>appAutomation</groupId>
+    <artifactId>appAutomation</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>appAutomation-framework</module>
+        <module>appAutomation-domain</module>
+        <module>appAutomation-regression-tests</module>
+        <module>appAutomation-page-objects</module>
+    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>appAutomation</groupId>
+            <artifactId>appAutomation-regression-tests</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+    <properties>
+        <!-- <selenium-server.version>3.8.1</selenium-server.version> -->
+        <testng.version>6.14.3</testng.version>
+        <webdriver-manager.version>3.6.2</webdriver-manager.version>
+        <selenium-chrome-driver>3.141.59</selenium-chrome-driver>
+        <log4j.version>1.2.17</log4j.version>
+        <hamcrest-all.version>1.3</hamcrest-all.version>
+        <selenide.version>4.2.1</selenide.version>
+        <selenium.version>3.141.59</selenium.version>
+    </properties>
+
+
+
+</project>
