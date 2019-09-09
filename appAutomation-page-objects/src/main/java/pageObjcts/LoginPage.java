@@ -35,7 +35,8 @@ public class LoginPage extends BasePage{
 
         return new LoginPage(driver); }
 
-    public HomePage clickSignInButton() {
+    public HomePage clickSignInButton() throws InterruptedException {
+        Thread.sleep(4000);
         signInButton.click();
 
        //$(locators.SIGN_IN_BUTTON).click();

@@ -14,7 +14,7 @@ public class HomePage extends BasePage {
         super(driver);
     }
 
-    @FindBy(css = "#q")
+    @FindBy(name = "q")
     private WebElement searchBox;
 
     public void setSearchBox(String searchText){

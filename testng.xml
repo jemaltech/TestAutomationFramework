@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite" parallel="tests" verbose="1" thread-count="1">
-    <test name="appAutomation-regression-tests">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Daily Regression Suite" parallel="tests" thread-count="2">
+    <test name="Home Page Tests">
         <classes>
-            <class name="HomePageTest">
-                <methods>
-                    <include name="searchFriendsNameUsingFacebookSearch"></include>
-                </methods>
-            </class>
+            <class name="HomePageTest" />
+        </classes>
+    </test>
+    <test name="Login Page Tests">
+        <classes>
+            <class name="LoginPageTest" />
         </classes>
     </test>
 </suite>
