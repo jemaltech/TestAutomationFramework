@@ -1,13 +1,14 @@
 package pageObjcts;
 
+import core.Base;
 import core.BasePage;
+import core.BaseTest;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.LoadableComponent;
 
 
-public class LoginPage extends BasePage{
+public class LoginPage extends Base {
 
     public LoginPage(WebDriver driver) { super(driver); }
 
@@ -35,12 +36,11 @@ public class LoginPage extends BasePage{
 
         return new LoginPage(driver); }
 
-    public HomePage clickSignInButton() throws InterruptedException {
-        Thread.sleep(4000);
+    public void clickSignInButton() {
         signInButton.click();
 
        //$(locators.SIGN_IN_BUTTON).click();
-        return new HomePage(driver);
+       // return new HomePage(driver);
     }
 
 

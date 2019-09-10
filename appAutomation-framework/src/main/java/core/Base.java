@@ -1,43 +1,36 @@
 package core;
 
-/*
-Note:
-Our framework will be based on the Page Object Model design pattern.
-We will also be using the WebDriver’s PageFactory class to initialize WebElements.
- */
-
-import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
-import org.openqa.selenium.support.ui.ExpectedCondition;
+
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import static com.codeborne.selenide.Selenide.$;
 
-public class BasePage{
+public class Base {
+
+    private static final int TIMEOUT = 5;
+    private static final int POLLING = 100;
+    public WebDriverWait wait;
 
     //Declare ThreadLocal Driver (ThreadLocalMap) for ThreadSafe Tests
     protected static ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<>();
     public CapabilityFactory capabilityFactory = new CapabilityFactory();
 
-    private static final int TIMEOUT = 5;
-    private static final int POLLING = 100;
 
-    //protected WebDriver driver;
-    public WebDriverWait wait;
+    public Base(WebDriver driver) {
+        wait  = new WebDriverWait(driver, TIMEOUT, POLLING);
 
-    public BasePage(WebDriver driver) {
-//        this.driver = (ThreadLocal<RemoteWebDriver>) driver;
-        wait = new WebDriverWait(driver, TIMEOUT, POLLING);
         PageFactory.initElements(new AjaxElementLocatorFactory(driver, TIMEOUT), this);
     }
 
+
     protected void waitForElementToAppear(By locator) {
+
         wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
@@ -52,7 +45,4 @@ public class BasePage{
     protected void waitForEelementToBeClickable(By locator){
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
     }
-
-
-
 }
