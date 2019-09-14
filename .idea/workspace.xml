@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39c59624-1983-40a8-b172-10cf2340e84d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appAutomation-framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appAutomation-framework/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appAutomation-page-objects/src/main/java/pageObjcts/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/appAutomation-page-objects/src/main/java/pageObjcts/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appAutomation-page-objects/target/classes/pageObjcts/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/appAutomation-page-objects/target/classes/pageObjcts/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/HomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appAutomation-regression-tests/target/classes/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/appAutomation-regression-tests/target/classes/HomePageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appAutomation-regression-tests/target/classes/LoginPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/appAutomation-regression-tests/target/classes/LoginPageTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,7 +41,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Git file" value="24" />
+          <entry key="Git file" value="53" />
           <entry key="JAVA" value="2617" />
           <entry key="Properties" value="109" />
           <entry key="XML" value="583" />
@@ -119,7 +112,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="181">
-              <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+              <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -253,6 +246,70 @@
               <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
               <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
+              <item name="appAutomation-domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
+              <item name="appAutomation-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
+              <item name="appAutomation-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
+              <item name="appAutomation-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
+              <item name="appAutomation-framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
+              <item name="appAutomation-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
+              <item name="appAutomation-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
+              <item name="appAutomation-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
+              <item name="appAutomation-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
+              <item name="appAutomation-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -262,7 +319,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568469155303" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568469991109" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -461,6 +518,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="42" y="23" width="1336" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2851623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -671,10 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#254#288#0" expanded="true" />
-            <element signature="e#330#363#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -701,7 +755,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
-          <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+          <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
         </state>
       </provider>
     </entry>
