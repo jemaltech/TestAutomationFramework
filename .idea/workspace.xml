@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39c59624-1983-40a8-b172-10cf2340e84d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appAutomation-framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appAutomation-framework/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appAutomation-framework/src/main/java/core/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/appAutomation-framework/src/main/java/core/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appAutomation-framework/target/classes/core/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/appAutomation-framework/target/classes/core/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appAutomation-framework/target/classes/core/BasePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/appAutomation-framework/target/classes/core/BasePageTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appAutomation-page-objects/src/main/java/pageObjcts/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/appAutomation-page-objects/src/main/java/pageObjcts/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appAutomation-page-objects/src/main/java/pageObjcts/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/appAutomation-page-objects/src/main/java/pageObjcts/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appAutomation-page-objects/target/classes/pageObjcts/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/appAutomation-page-objects/target/classes/pageObjcts/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appAutomation-page-objects/target/classes/pageObjcts/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/appAutomation-page-objects/target/classes/pageObjcts/LoginPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/HomePageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/LoginPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appAutomation-regression-tests/target/classes/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/appAutomation-regression-tests/target/classes/HomePageTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appAutomation-regression-tests/target/classes/LoginPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/appAutomation-regression-tests/target/classes/LoginPageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appAutomation-regression-tests/target/classes/parallelTestDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/appAutomation-regression-tests/target/classes/parallelTestDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appAutomation-regression-tests/target/test-classes/LoginPageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appAutomation-regression-tests/target/test-classes/parallelTestDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,24 +26,27 @@
     <session id="440605003">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="35" />
-          <entry key="XML" value="24" />
+          <entry key="IDEA_MODULE" value="2" />
+          <entry key="JAVA" value="51" />
+          <entry key="Properties" value="4" />
+          <entry key="XML" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1961" />
-          <entry key="XML" value="581" />
+          <entry key="JAVA" value="2617" />
+          <entry key="Properties" value="109" />
+          <entry key="XML" value="583" />
         </counts>
       </usages-collector>
     </session>
@@ -62,23 +54,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appAutomation-page-objects/src/main/java/pageObjcts/HomePage.java">
+        <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/java/utilities/PropertyManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="134">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#994#1032#0" expanded="true" />
+                <element signature="e#1176#1211#1" expanded="true" />
+                <element signature="e#1675#1743#0" expanded="true" />
+                <element signature="e#1675#1743#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/java/core/Base.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204">
+            <state relative-caret-position="15">
               <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -88,10 +82,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appAutomation-page-objects/src/main/java/pageObjcts/LoginPage.java">
+        <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/java/core/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="222">
+              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,10 +94,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/java/core/BaseTest.java">
+        <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/resources/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="30">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -111,25 +105,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/LoginPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+            <state relative-caret-position="290">
+              <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#316#430#0" expanded="true" />
-                <element signature="e#317#340#0" expanded="true" />
-                <element signature="e#316#430#0" expanded="true" />
-                <element signature="e#316#430#0" expanded="true" />
-                <element signature="e#316#430#0" expanded="true" />
-                <element signature="e#365#395#0" expanded="true" />
-                <element signature="e#316#430#0" expanded="true" />
-                <element signature="e#426#449#0" expanded="true" />
-                <element signature="e#546#630#0" expanded="true" />
-                <element signature="e#546#630#0" expanded="true" />
-                <element signature="e#545#575#0" expanded="true" />
-                <element signature="e#546#630#0" expanded="true" />
-                <element signature="e#301#312#0" expanded="true" />
-                <element signature="e#381#392#0" expanded="true" />
-                <element signature="e#439#450#0" expanded="true" />
+                <element signature="e#267#296#0" expanded="true" />
+                <element signature="e#267#315#0" expanded="true" />
+                <element signature="e#344#373#0" expanded="true" />
+                <element signature="e#344#392#0" expanded="true" />
+                <element signature="e#415#444#0" expanded="true" />
+                <element signature="e#415#453#0" expanded="true" />
+                <element signature="e#632#643#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/appAutomation-page-objects/src/main/java/pageObjcts/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,49 +136,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/HomePageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="246">
+              <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#426#437#0" expanded="true" />
-                <element signature="e#506#517#0" expanded="true" />
-                <element signature="e#564#575#0" expanded="true" />
-                <element signature="e#798#809#0" expanded="true" />
-                <element signature="e#723#752#0" expanded="true" />
-                <element signature="e#723#752#0" expanded="true" />
-                <element signature="e#849#968#0" expanded="true" />
-                <element signature="e#1010#1021#0" expanded="true" />
-                <element signature="e#1010#1032#0" expanded="true" />
-                <element signature="e#849#968#0" expanded="true" />
-                <element signature="e#849#968#0" expanded="true" />
-                <element signature="e#849#968#0" expanded="true" />
-                <element signature="e#1057#1087#0" expanded="true" />
-                <element signature="e#849#968#0" expanded="true" />
-                <element signature="e#1118#1129#0" expanded="true" />
-                <element signature="e#1118#1140#0" expanded="true" />
-                <element signature="e#1083#1163#0" expanded="true" />
-                <element signature="e#1083#1163#0" expanded="true" />
-                <element signature="e#1232#1262#0" expanded="true" />
-                <element signature="e#1083#1163#0" expanded="true" />
+                <element signature="e#341#370#0" expanded="true" />
+                <element signature="e#341#389#0" expanded="true" />
+                <element signature="e#418#447#0" expanded="true" />
+                <element signature="e#418#466#0" expanded="true" />
+                <element signature="e#489#518#0" expanded="true" />
+                <element signature="e#489#527#0" expanded="true" />
+                <element signature="e#706#717#0" expanded="true" />
+                <element signature="e#1136#1165#0" expanded="true" />
+                <element signature="e#1136#1165#0" expanded="true" />
+                <element signature="e#1386#1397#0" expanded="true" />
+                <element signature="e#1386#1408#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testng.xml">
+        <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/java/core/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/java/core/OptionsManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+            <state relative-caret-position="255">
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -202,10 +182,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/java/core/BasePage.java">
+        <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/java/core/OptionsManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="30" />
+            <state relative-caret-position="303">
+              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -241,7 +221,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/appAutomation-regression-tests/src/test/java/regressionTests/HomePageTest.java" />
-        <option value="$PROJECT_DIR$/appAutomation-framework/pom.xml" />
         <option value="$PROJECT_DIR$/appAutomation-regression-tests/src/test/java/regressionTests/LoginPageTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/appAutomation-regression-tests/pom.xml" />
@@ -253,15 +232,20 @@
         <option value="$PROJECT_DIR$/testng-thread.xml" />
         <option value="$PROJECT_DIR$/appAutomation-framework/src/main/java/core/BasePageTest.java" />
         <option value="$PROJECT_DIR$/appAutomation-framework/src/main/java/core/OptionsManager.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/appAutomation-framework/src/main/java/core/CapabilityFactory.java" />
         <option value="$PROJECT_DIR$/appAutomation-framework/src/main/java/core/BasePage.java" />
         <option value="$PROJECT_DIR$/appAutomation-framework/src/main/java/core/BaseTest.java" />
-        <option value="$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/LoginPageTest.java" />
         <option value="$PROJECT_DIR$/appAutomation-page-objects/src/main/java/pageObjcts/LoginPage.java" />
+        <option value="$PROJECT_DIR$/appAutomation-framework/src/main/java/core/Base.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/appAutomation-framework/pom.xml" />
+        <option value="$PROJECT_DIR$/appAutomation-domain/src/main/java/test.java" />
+        <option value="$PROJECT_DIR$/appAutomation-framework/src/main/resources/configuration.properties" />
+        <option value="$PROJECT_DIR$/appAutomation-framework/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/appAutomation-framework/src/main/java/utilities/PropertyManager.java" />
+        <option value="$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/LoginPageTest.java" />
         <option value="$PROJECT_DIR$/appAutomation-page-objects/src/main/java/pageObjcts/HomePage.java" />
         <option value="$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/HomePageTest.java" />
-        <option value="$PROJECT_DIR$/appAutomation-framework/src/main/java/core/Base.java" />
       </list>
     </option>
   </component>
@@ -273,6 +257,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="42" />
     <option name="y" value="23" />
     <option name="width" value="1336" />
     <option name="height" value="877" />
@@ -284,47 +269,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
               <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
-              <item name="appAutomation-framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
-              <item name="appAutomation-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
-              <item name="appAutomation-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
-              <item name="appAutomation-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
-              <item name="appAutomation-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
@@ -387,35 +338,19 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
-              <item name="appAutomation-regression-tests" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
-              <item name="appAutomation-regression-tests" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568149734376" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568468804291" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -454,6 +389,28 @@
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest.initHomePage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="appAutomationregressiontests" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HomePageTest" />
+      <option name="METHOD_NAME" value="initHomePage" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -531,10 +488,12 @@
     <list>
       <item itemvalue="TestNG./Users/jemal/docker-databases/myapps/code2Automate/testng.xml" />
       <item itemvalue="TestNG.LoginPageTest" />
+      <item itemvalue="TestNG.HomePageTest.initHomePage" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/jemal/docker-databases/myapps/code2Automate/testng.xml" />
+        <item itemvalue="TestNG.HomePageTest.initHomePage" />
         <item itemvalue="TestNG.LoginPageTest" />
       </list>
     </recent_temporary>
@@ -553,42 +512,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_jemal_docker-databases_myapps_code2Automate_testng_xml - 2019.09.10 at 14h 40m 36s.xml">
+    <history-entry file="_Users_jemal_docker-databases_myapps_code2Automate_testng_xml - 2019.09.14 at 00h 06m 54s.xml">
       <configuration name="/Users/jemal/docker-databases/myapps/code2Automate/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_jemal_docker-databases_myapps_code2Automate_testng_xml - 2019.09.10 at 14h 42m 45s.xml">
+    <history-entry file="_Users_jemal_docker-databases_myapps_code2Automate_testng_xml - 2019.09.14 at 00h 07m 23s.xml">
       <configuration name="/Users/jemal/docker-databases/myapps/code2Automate/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_jemal_docker-databases_myapps_code2Automate_testng_xml - 2019.09.10 at 15h 00m 02s.xml">
+    <history-entry file="_Users_jemal_docker-databases_myapps_code2Automate_testng_xml - 2019.09.14 at 09h 04m 22s.xml">
       <configuration name="/Users/jemal/docker-databases/myapps/code2Automate/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_jemal_docker-databases_myapps_code2Automate_testng_xml - 2019.09.10 at 15h 00m 10s.xml">
+    <history-entry file="_Users_jemal_docker-databases_myapps_code2Automate_testng_xml - 2019.09.14 at 09h 06m 09s.xml">
       <configuration name="/Users/jemal/docker-databases/myapps/code2Automate/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_jemal_docker-databases_myapps_code2Automate_testng_xml - 2019.09.10 at 16h 32m 58s.xml">
+    <history-entry file="_Users_jemal_docker-databases_myapps_code2Automate_testng_xml - 2019.09.14 at 09h 07m 02s.xml">
       <configuration name="/Users/jemal/docker-databases/myapps/code2Automate/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_jemal_docker-databases_myapps_code2Automate_testng_xml - 2019.09.10 at 16h 34m 30s.xml">
+    <history-entry file="_Users_jemal_docker-databases_myapps_code2Automate_testng_xml - 2019.09.14 at 09h 19m 23s.xml">
       <configuration name="/Users/jemal/docker-databases/myapps/code2Automate/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_jemal_docker-databases_myapps_code2Automate_testng_xml - 2019.09.10 at 16h 41m 12s.xml">
+    <history-entry file="_Users_jemal_docker-databases_myapps_code2Automate_testng_xml - 2019.09.14 at 09h 26m 52s.xml">
       <configuration name="/Users/jemal/docker-databases/myapps/code2Automate/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_jemal_docker-databases_myapps_code2Automate_testng_xml - 2019.09.10 at 16h 42m 39s.xml">
+    <history-entry file="_Users_jemal_docker-databases_myapps_code2Automate_testng_xml - 2019.09.14 at 09h 27m 48s.xml">
       <configuration name="/Users/jemal/docker-databases/myapps/code2Automate/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_jemal_docker-databases_myapps_code2Automate_testng_xml - 2019.09.10 at 16h 55m 58s.xml">
+    <history-entry file="_Users_jemal_docker-databases_myapps_code2Automate_testng_xml - 2019.09.14 at 09h 29m 32s.xml">
       <configuration name="/Users/jemal/docker-databases/myapps/code2Automate/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_jemal_docker-databases_myapps_code2Automate_testng_xml - 2019.09.10 at 16h 58m 32s.xml">
+    <history-entry file="_Users_jemal_docker-databases_myapps_code2Automate_testng_xml - 2019.09.14 at 09h 41m 23s.xml">
       <configuration name="/Users/jemal/docker-databases/myapps/code2Automate/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1336" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="42" y="23" width="1336" height="877" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.42426583" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2812983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="DB Browser" order="3" />
@@ -600,14 +558,14 @@
       <window_info id="Image Layers" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.45859873" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45859873" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Console" order="7" />
       <window_info anchor="bottom" id="DB Execution Console" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.34267515" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.34267515" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Run with VisualVM" order="11" />
       <window_info anchor="bottom" id="Docker" order="12" />
@@ -657,35 +615,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code2Automate.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/RegressionTestSuite.xml" />
     <entry file="file://$PROJECT_DIR$/demoTests.xml" />
     <entry file="file://$PROJECT_DIR$/classes-test-testng.xml" />
     <entry file="file://$PROJECT_DIR$/testng-thread.xml" />
     <entry file="file://$PROJECT_DIR$/regression-test-suite.xml" />
-    <entry file="file://$PROJECT_DIR$/appAutomation-framework/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="51" column="41" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/parallelTestDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -699,10 +637,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/java/core/OptionsManager.java">
+    <entry file="file://$PROJECT_DIR$/appAutomation-page-objects/src/main/java/pageObjcts/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        <state relative-caret-position="47">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appAutomation-framework/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="839" selection-start-line="839" selection-end-line="839" />
+          <folding>
+            <element signature="e#29323#29324#0" expanded="true" />
+            <element signature="e#34396#34489#0" expanded="true" />
+            <element signature="e#34396#34489#0" expanded="true" />
+            <element signature="e#34396#34489#0" expanded="true" />
+            <element signature="e#34396#34489#0" expanded="true" />
+            <element signature="e#34396#34489#0" expanded="true" />
+            <element signature="e#34396#34489#0" expanded="true" />
+            <element signature="e#34396#34489#0" expanded="true" />
+            <element signature="e#34498#34599#0" expanded="true" />
+            <element signature="e#34502#34516#0" expanded="true" />
+            <element signature="e#34502#34516#0" expanded="true" />
+            <element signature="e#34498#34599#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="976" selection-start-line="976" selection-end-line="976" />
+          <folding>
+            <element signature="e#37101#37159#0" expanded="true" />
+            <element signature="e#37101#37159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appAutomation-domain/src/main/java/test.java" />
+    <entry file="file://$PROJECT_DIR$/code2Automate.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="69" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/java/core/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -720,94 +725,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/java/core/BaseTest.java">
+    <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/java/core/OptionsManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/LoginPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#316#430#0" expanded="true" />
-            <element signature="e#317#340#0" expanded="true" />
-            <element signature="e#316#430#0" expanded="true" />
-            <element signature="e#316#430#0" expanded="true" />
-            <element signature="e#316#430#0" expanded="true" />
-            <element signature="e#365#395#0" expanded="true" />
-            <element signature="e#316#430#0" expanded="true" />
-            <element signature="e#426#449#0" expanded="true" />
-            <element signature="e#546#630#0" expanded="true" />
-            <element signature="e#546#630#0" expanded="true" />
-            <element signature="e#545#575#0" expanded="true" />
-            <element signature="e#546#630#0" expanded="true" />
-            <element signature="e#301#312#0" expanded="true" />
-            <element signature="e#381#392#0" expanded="true" />
-            <element signature="e#439#450#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appAutomation-page-objects/src/main/java/pageObjcts/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="303">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appAutomation-page-objects/src/main/java/pageObjcts/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/java/core/Base.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="15">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/HomePageTest.java">
+    <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/resources/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#426#437#0" expanded="true" />
-            <element signature="e#506#517#0" expanded="true" />
-            <element signature="e#564#575#0" expanded="true" />
-            <element signature="e#798#809#0" expanded="true" />
-            <element signature="e#723#752#0" expanded="true" />
-            <element signature="e#723#752#0" expanded="true" />
-            <element signature="e#849#968#0" expanded="true" />
-            <element signature="e#1010#1021#0" expanded="true" />
-            <element signature="e#1010#1032#0" expanded="true" />
-            <element signature="e#849#968#0" expanded="true" />
-            <element signature="e#849#968#0" expanded="true" />
-            <element signature="e#849#968#0" expanded="true" />
-            <element signature="e#1057#1087#0" expanded="true" />
-            <element signature="e#849#968#0" expanded="true" />
-            <element signature="e#1118#1129#0" expanded="true" />
-            <element signature="e#1118#1140#0" expanded="true" />
-            <element signature="e#1083#1163#0" expanded="true" />
-            <element signature="e#1083#1163#0" expanded="true" />
-            <element signature="e#1232#1262#0" expanded="true" />
-            <element signature="e#1083#1163#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/resources/configuration.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" lean-forward="true" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -821,10 +769,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/java/core/Base.java">
+    <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/java/utilities/PropertyManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        <state relative-caret-position="134">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#994#1032#0" expanded="true" />
+            <element signature="e#1176#1211#1" expanded="true" />
+            <element signature="e#1675#1743#0" expanded="true" />
+            <element signature="e#1675#1743#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/HomePageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#341#370#0" expanded="true" />
+            <element signature="e#341#389#0" expanded="true" />
+            <element signature="e#418#447#0" expanded="true" />
+            <element signature="e#418#466#0" expanded="true" />
+            <element signature="e#489#518#0" expanded="true" />
+            <element signature="e#489#527#0" expanded="true" />
+            <element signature="e#706#717#0" expanded="true" />
+            <element signature="e#1136#1165#0" expanded="true" />
+            <element signature="e#1136#1165#0" expanded="true" />
+            <element signature="e#1386#1397#0" expanded="true" />
+            <element signature="e#1386#1408#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/LoginPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#267#296#0" expanded="true" />
+            <element signature="e#267#315#0" expanded="true" />
+            <element signature="e#344#373#0" expanded="true" />
+            <element signature="e#344#392#0" expanded="true" />
+            <element signature="e#415#444#0" expanded="true" />
+            <element signature="e#415#453#0" expanded="true" />
+            <element signature="e#632#643#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appAutomation-page-objects/src/main/java/pageObjcts/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -884,7 +884,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>code2Automate</last-edited>
+          <last-edited>appAutomationpageobjects</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

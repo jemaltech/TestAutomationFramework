@@ -1,17 +1,27 @@
 import core.BaseTest;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pageObjcts.LoginPage;
-
+import utilities.PropertyManager;
 
 
 public class LoginPageTest extends BaseTest {
     LoginPage loginPage;
 
 
+    //Test Data
+    String validUsername = PropertyManager.getInstance().getValidUsername();
+    String validPassword = PropertyManager.getInstance().getValidPassword();
+    String baseURL = PropertyManager.getInstance().getURL();
+
+    @Test(priority = 0)
+    public void initHomePage(){
+        /*********Page Variables*********/
+        // String baseURL = PropertyManager.getInstance().getURL();
+        getDriver().get(baseURL);
+    }
 
     @Test(priority = 2)
     public void printInstanceID(){
@@ -23,10 +33,9 @@ public class LoginPageTest extends BaseTest {
 
 
     @Test(priority = 1)
-    public void SignInWithValidUserCredential() throws InterruptedException {
-        getDriver().get("https://www.facebook.com/login.php");
+    public void SignInWithValidUserCredential() {
         loginPage = new LoginPage(getDriver());
-        loginPage.submitUserNameAndPassWord(getDriver(),"jemalmfth@gmail.com","Link@2019")
+        loginPage.submitUserNameAndPassWord(getDriver(),validUsername,validPassword)
                 .clickSignInButton();
 
 
