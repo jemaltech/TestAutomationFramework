@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39c59624-1983-40a8-b172-10cf2340e84d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appAutomation-framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appAutomation-framework/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appAutomation-page-objects/src/main/java/pageObjcts/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/appAutomation-page-objects/src/main/java/pageObjcts/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appAutomation-page-objects/target/classes/pageObjcts/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/appAutomation-page-objects/target/classes/pageObjcts/HomePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/HomePageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/LoginPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appAutomation-regression-tests/target/classes/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/appAutomation-regression-tests/target/classes/HomePageTest.class" afterDir="false" />
@@ -27,15 +29,17 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="3" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
+          <entry key="Git file" value="1" />
           <entry key="IDEA_MODULE" value="2" />
           <entry key="JAVA" value="51" />
           <entry key="Properties" value="4" />
@@ -44,6 +48,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="Git file" value="24" />
           <entry key="JAVA" value="2617" />
           <entry key="Properties" value="109" />
           <entry key="XML" value="583" />
@@ -54,25 +59,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/java/utilities/PropertyManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#994#1032#0" expanded="true" />
-                <element signature="e#1176#1211#1" expanded="true" />
-                <element signature="e#1675#1743#0" expanded="true" />
-                <element signature="e#1675#1743#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/java/core/Base.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="135">
               <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -84,7 +73,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/java/core/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
+            <state relative-caret-position="300">
               <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -105,23 +94,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/LoginPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
+            <state relative-caret-position="480">
               <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#267#296#0" expanded="true" />
-                <element signature="e#267#315#0" expanded="true" />
-                <element signature="e#344#373#0" expanded="true" />
-                <element signature="e#344#392#0" expanded="true" />
-                <element signature="e#415#444#0" expanded="true" />
-                <element signature="e#415#453#0" expanded="true" />
-                <element signature="e#632#643#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appAutomation-page-objects/src/main/java/pageObjcts/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -133,24 +115,22 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/HomePageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+            <state relative-caret-position="660">
+              <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#341#370#0" expanded="true" />
-                <element signature="e#341#389#0" expanded="true" />
-                <element signature="e#418#447#0" expanded="true" />
-                <element signature="e#418#466#0" expanded="true" />
-                <element signature="e#489#518#0" expanded="true" />
-                <element signature="e#489#527#0" expanded="true" />
-                <element signature="e#706#717#0" expanded="true" />
-                <element signature="e#1136#1165#0" expanded="true" />
-                <element signature="e#1136#1165#0" expanded="true" />
-                <element signature="e#1386#1397#0" expanded="true" />
-                <element signature="e#1386#1408#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,7 +139,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/java/core/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="270">
               <caret line="23" column="39" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -173,10 +153,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <element signature="e#254#288#0" expanded="true" />
-                <element signature="e#330#363#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -184,7 +160,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/java/core/OptionsManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
+            <state relative-caret-position="375">
               <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -246,6 +222,7 @@
         <option value="$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/LoginPageTest.java" />
         <option value="$PROJECT_DIR$/appAutomation-page-objects/src/main/java/pageObjcts/HomePage.java" />
         <option value="$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/HomePageTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -269,7 +246,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -277,76 +253,16 @@
               <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
               <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
-              <item name="appAutomation-page-objects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
-              <item name="appAutomation-page-objects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
-              <item name="appAutomation-page-objects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
-              <item name="appAutomation-page-objects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
-              <item name="appAutomation-page-objects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pageObjcts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
-              <item name="appAutomation-regression-tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
-              <item name="appAutomation-regression-tests" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
-              <item name="appAutomation-regression-tests" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code2Automate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code2Automate" type="462c0819:PsiDirectoryNode" />
-              <item name="appAutomation-regression-tests" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568468804291" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568469155303" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -546,7 +462,7 @@
   <component name="ToolWindowManager">
     <frame x="42" y="23" width="1336" height="877" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2812983" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2851623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="DB Browser" order="3" />
@@ -631,9 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="453">
           <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -665,20 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="839" selection-start-line="839" selection-end-line="839" />
-          <folding>
-            <element signature="e#29323#29324#0" expanded="true" />
-            <element signature="e#34396#34489#0" expanded="true" />
-            <element signature="e#34396#34489#0" expanded="true" />
-            <element signature="e#34396#34489#0" expanded="true" />
-            <element signature="e#34396#34489#0" expanded="true" />
-            <element signature="e#34396#34489#0" expanded="true" />
-            <element signature="e#34396#34489#0" expanded="true" />
-            <element signature="e#34396#34489#0" expanded="true" />
-            <element signature="e#34498#34599#0" expanded="true" />
-            <element signature="e#34502#34516#0" expanded="true" />
-            <element signature="e#34502#34516#0" expanded="true" />
-            <element signature="e#34498#34599#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -686,10 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="976" selection-start-line="976" selection-end-line="976" />
-          <folding>
-            <element signature="e#37101#37159#0" expanded="true" />
-            <element signature="e#37101#37159#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -704,9 +599,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/resources/configuration.properties" />
+    <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/java/utilities/PropertyManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/java/core/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/java/core/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/LoginPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/HomePageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/java/core/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="270">
           <caret line="23" column="39" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -727,96 +680,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/java/core/OptionsManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
+        <state relative-caret-position="375">
           <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/java/core/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/resources/configuration.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" lean-forward="true" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/java/core/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appAutomation-framework/src/main/java/utilities/PropertyManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#994#1032#0" expanded="true" />
-            <element signature="e#1176#1211#1" expanded="true" />
-            <element signature="e#1675#1743#0" expanded="true" />
-            <element signature="e#1675#1743#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/HomePageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#341#370#0" expanded="true" />
-            <element signature="e#341#389#0" expanded="true" />
-            <element signature="e#418#447#0" expanded="true" />
-            <element signature="e#418#466#0" expanded="true" />
-            <element signature="e#489#518#0" expanded="true" />
-            <element signature="e#489#527#0" expanded="true" />
-            <element signature="e#706#717#0" expanded="true" />
-            <element signature="e#1136#1165#0" expanded="true" />
-            <element signature="e#1136#1165#0" expanded="true" />
-            <element signature="e#1386#1397#0" expanded="true" />
-            <element signature="e#1386#1408#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appAutomation-regression-tests/src/main/java/LoginPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#267#296#0" expanded="true" />
-            <element signature="e#267#315#0" expanded="true" />
-            <element signature="e#344#373#0" expanded="true" />
-            <element signature="e#344#392#0" expanded="true" />
-            <element signature="e#415#444#0" expanded="true" />
-            <element signature="e#415#453#0" expanded="true" />
-            <element signature="e#632#643#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -828,6 +695,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
         </state>
       </provider>
     </entry>
